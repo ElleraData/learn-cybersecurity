@@ -1,4 +1,4 @@
-# Hi there, I'm El! 👋
+# Hi there, I'm Ell! 👋
 
 ## 🛡️ About Me
 I am a passionate learner currently diving into **Cybersecurity** and **Data Analytics**. I focus on monitoring digital assets, understanding system vulnerabilities, and learning how to protect networks.
