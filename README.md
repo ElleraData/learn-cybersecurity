@@ -1,25 +1,58 @@
-# Hi there, I'm Ell! 👋
+# OWASP Mobile Top 10 (2016)
 
-## 🛡️ About Me
-I am a passionate learner currently diving into **Cybersecurity** and **Data Analytics**. I focus on monitoring digital assets, understanding system vulnerabilities, and learning how to protect networks.
+This repository contains my learning notes on the OWASP Mobile Top 10 security risks.
 
-* 🔍 **Interests:** Security Information and Event Management (SIEM), Log Analysis, and Packet Sniffing.
-* 💻 **OS & Scripting:** Navigating through Linux terminals and automating tasks with Python and SQL.
-* 📚 **Current Goal:** Completing professional training certificates to build a strong foundation in core security skills.
+## M1 - Improper Platform Usage
+Misuse of platform features, security controls, or operating system capabilities.
 
-## 🛠️ Tools & Technologies
-Here are some of the essential tools and concepts I am currently mastering:
+## M2 - Insecure Data Storage
+Sensitive data is stored insecurely on the device.
 
-| Tool / Concept | Category | Purpose |
-| :--- | :--- | :--- |
-| **Wireshark / Packet Sniffers** | Network Security | Capturing and analyzing live network traffic |
-| **SIEM** | Incident Detection | Centralizing logs into dashboards to spot real-time threats |
-| **Linux OS** | Operating System | Using powerful terminal commands to audit and inspect logs |
-| **Playbooks** | Incident Response | Following step-by-step operational manuals to handle breaches |
+## M3 - Insecure Communication
+Data is transmitted over insecure channels.
 
-## 💡 Security Philosophy
-> "Cybersecurity is not just about using the right tools; it’s about maintaining the Confidentiality, Integrity, and Availability (CIA triad) of data through analytical thinking and continuous monitoring."
+## M4 - Insecure Authentication
+Weak or flawed authentication mechanisms.
+
+## M5 - Insufficient Cryptography
+Improper use of cryptographic algorithms or implementations.
+
+## M6 - Insecure Authorization
+Users can access resources or data beyond their intended permissions.
+
+## M7 - Client Code Quality
+Poor code quality leading to security vulnerabilities.
+
+## M8 - Code Tampering
+Application code can be modified or manipulated.
+
+## M9 - Reverse Engineering
+Attackers can analyze and understand application logic through reverse engineering.
+
+## M10 - Extraneous Functionality
+Unnecessary features, debug functionality, or hidden endpoints left in production.
 
 ---
-*Connect with me as I document my journey into the blue team and security operations!*
 
+### Learning Goals
+- Understand common mobile application vulnerabilities.
+- Learn mobile penetration testing techniques.
+- Practice identifying security issues in Android applications.
+- Prepare for mobile bug bounty hunting.
+
+### References
+- OWASP Mobile Security Project
+- OWASP Mobile Top 10
+
+- [M1 - Improper Platform Usage](https://owasp.org/www-project-mobile-top-10/2016-risks/m1-improper-platform-usage)
+- [M2 - Insecure Data Storage](https://owasp.org/www-project-mobile-top-10/2016-risks/m2-insecure-data-storage)
+- [M3 - Insecure Communication](https://owasp.org/www-project-mobile-top-10/2016-risks/m3-insecure-communication)
+- [M4 - Insecure Authentication](https://owasp.org/www-project-mobile-top-10/2016-risks/m4-insecure-authentication)
+- [M5 - Insufficient Cryptography](https://owasp.org/www-project-mobile-top-10/2016-risks/m5-insufficient-cryptography)
+- [M6 - Insecure Authorization](https://owasp.org/www-project-mobile-top-10/2016-risks/m6-insecure-authorization)
+- [M7 - Client Code Quality](https://owasp.org/www-project-mobile-top-10/2016-risks/m7-client-code-quality)
+- [M8 - Code Tampering](https://owasp.org/www-project-mobile-top-10/2016-risks/m8-code-tampering)
+- [M9 - Reverse Engineering](https://owasp.org/www-project-mobile-top-10/2016-risks/m9-reverse-engineering)
+- [M10 - Extraneous Functionality](https://owasp.org/www-project-mobile-top-10/2016-risks/m10-extraneous-functionality)
+
+---
